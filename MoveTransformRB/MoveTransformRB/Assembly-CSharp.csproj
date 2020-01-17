@@ -62,10 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DoubleFaced.cs" />
-    <Compile Include="Assets\Scripts\MoveByCharacterController.cs" />
-    <Compile Include="Assets\Scripts\MoveByRigidBody.cs" />
-    <Compile Include="Assets\Scripts\MoveByTransform.cs" />
-    <Compile Include="Assets\Scripts\VRLocomotion.cs" />
+    <Compile Include="Assets\Scripts\Interaction\InputManager.cs" />
+    <Compile Include="Assets\Scripts\Interaction\Utility.cs" />
+    <Compile Include="Assets\Scripts\Player\slot.cs" />
+    <Compile Include="Assets\Scripts\Player\VRLocomotion.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/GitHub/Acrophobia/MoveTransformRB/MoveTransformRB/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
