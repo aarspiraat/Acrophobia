@@ -2,24 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class Utility 
+public static class Utility
 {
-    /*
     public static T GetNearestInteractable<T>(Vector3 origin, List<T> collection)
-        where T: Interactable
+        where T : Interactable
     {
         T nearest = null;
         float minDistance = float.MaxValue;
         float distance = 0.0f;
 
-        // For each object we are touching
+        // For each object that is touched
         foreach (T entity in collection)
         {
             if (!entity)
                 continue;
 
             
-            if (!entity.GetAvailability())
+            if (!entity.getAvailability())
                 continue;
             
 
@@ -34,5 +33,4 @@ public static class Utility
 
         return nearest;
     }
-    */
 }
