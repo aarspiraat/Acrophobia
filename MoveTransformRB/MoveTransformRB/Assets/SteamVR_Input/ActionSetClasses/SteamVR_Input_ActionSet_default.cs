@@ -113,6 +113,14 @@ namespace Valve.VR
             }
         }
         
+        public virtual SteamVR_Action_Boolean CameraSwap
+        {
+            get
+            {
+                return SteamVR_Actions.default_CameraSwap;
+            }
+        }
+        
         public virtual SteamVR_Action_Vibration Haptic
         {
             get
